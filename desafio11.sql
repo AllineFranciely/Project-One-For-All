@@ -1,7 +1,7 @@
 SELECT
 	son.name AS nome_musica,
 CASE
-	WHEN son.name LIKE '%Streets' THEN REPLACE(son.name, 'Streets', 'CodeReview')
+	WHEN son.name LIKE '%Streets' THEN REPLACE(son.name, 'Streets', 'Code Review')
     WHEN son.name LIKE '%Her Own' THEN REPLACE(son.name, 'Her Own', 'Trybe')
     WHEN son.name LIKE '%Inner Fire' THEN REPLACE(son.name, 'Inner Fire', 'Project')
     WHEN son.name LIKE '%Silly' THEN REPLACE(son.name, 'Silly', 'Nice')
